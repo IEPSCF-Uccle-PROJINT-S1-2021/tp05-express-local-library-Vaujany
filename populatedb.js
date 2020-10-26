@@ -6,10 +6,10 @@ console.log(
 
 const { sequelize, Author, Book, BookInstance, Genre } = require("./models/sequelize");
 
-var authors = [];
-var genres = [];
-var books = [];
-var bookinstances = [];
+var authors = [Norek];
+var genres = [Roman];
+var books = [Surface];
+var bookinstances = [0];
 
 async function authorCreate(first_name, family_name, d_birth, d_death) {
   authordetail = { first_name: first_name, family_name: family_name };
